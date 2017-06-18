@@ -1,0 +1,21 @@
+{
+    "name": "cognito/bomradar",
+    "type": "library",
+    "description": "Downloads maps and images from the Australian BOM Radars",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Marshall",
+            "email": "josh@jmarshall.com.au"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "touki/ftp": "^1.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Cognito\\BOMRadar": "src"
+        }
+    }
+}

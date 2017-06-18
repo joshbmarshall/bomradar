@@ -1,6 +1,6 @@
 <?php
 
-namespace Cognito\BOMRadar;
+namespace BOMRadar;
 
 /**
  * Download and reproduce the Australian BOM radars onto your site or application

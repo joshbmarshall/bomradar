@@ -25,7 +25,7 @@ Set up a regular call through a cron or similar every 10 minutes, to sync and cl
 
 	<?php
 	// Call this every 10 minutes through a cron or similar
-	$radar = new \Cognito\BOMRadar\Radar('663');
+	$radar = new \BOMRadar\Radar('663');
 	$radar->sync(__DIR__ . '/assets', 2);
 
 The sync() command takes the full path to the folder to store the files, and the number of hours to keep the files there for.
@@ -39,5 +39,5 @@ To output the radar to the browser, you can use the built-in renderer or make up
 
 	<?php
 	// Call this to render the radar to the browser
-	$radar = new \Cognito\BOMRadar\Radar('663');
+	$radar = new \BOMRadar\Radar('663');
 	echo $radar->render(__DIR__ . '/assets', '/assets', 6);
